@@ -38,7 +38,7 @@ type ButtonProps = {
 
 export const Button = styled.button<ButtonProps>`
     width: 100%;
-    padding: 0.75rem;
+    padding: .75rem;
     border: none;
     border-radius: 4px;
     background-color: #007bff;
@@ -59,9 +59,9 @@ export const Button = styled.button<ButtonProps>`
                 font-size: 0.875rem;
                 text-decoration: underline;
                 
-                &:hover {
-                    color: #0056b3;
-                }
+                /* &:hover {
+                    color: #fff;
+                } */
             `
             : css`
                 background-color: #007bff;
@@ -71,9 +71,5 @@ export const Button = styled.button<ButtonProps>`
                     background-color: #0056b3;
                 }
             ` 
-    }
-
-    &:hover {
-        background-color: #0056b3;
     }
 `;
